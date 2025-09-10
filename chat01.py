@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from openai import OpenAI
+# client = OpenAI(api_key='your-api-key-here')
 client = OpenAI()
 
 response = client.responses.create(
